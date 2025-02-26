@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+</head>
+<body>
+    <section class="sub-header">
+
+        <nav>
+        <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+        
+        <div class="nav-links" id="navLinks">
+            <i class="ri-close-line icon" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </div>
+        <i class="ri-menu-line icon"  onclick="showMenu()"></i>
+    </nav>
+   <h1>About Us</h1>
+    </section>
+    
+<!-- about us content -->
+ <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the World's Largest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iusto ipsa vitae consequuntur cum! Officiis, distinctio, cum reprehenderit voluptas nesciunt, quidem consequatur ipsam ab vero delectus eaque eligendi error sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, pariatur? Aliquam pariatur accusamus, voluptatem minus animi et natus, repellat ipsa consequuntur error atque quas? Pariatur facilis maxime dolorum enim eos.</p>
+
+            <a href="" class="hero-btm red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="eduford_img/about.jpg" alt="">
+        </div>
+    </div>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer
+ -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Aliquid tempore ipsa et hic nisi eum dolore sunt,<br> vitae corporis excepturi soluta sit, quasi blanditiis vero. Natus molestias animi nesciunt eligendi?</p>
+    <div class="icons">
+        <i class="ri-facebook-circle-fill fa"></i>
+        <i class="ri-twitter-fill fa"></i>
+        <i class="ri-youtube-fill fa"></i>
+        <i class="ri-instagram-fill fa"></i>
+    </div>
+    <p>Made With <i class="ri-heart-line heart"></i>by Roksana</p>
+</section>
+
+
+
+
+
+
+
+
+<!--JavaScript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
