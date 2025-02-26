@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+</head>
+<body>
+    <section class="header">
+
+        <nav>
+        <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+        
+        <div class="nav-links" id="navLinks">
+            <i class="ri-close-line icon" onclick="hideMenu()"></i>
+            <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">COURSE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        </div>
+        <i class="ri-menu-line icon"  onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>World's Biggest University</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, asperiores! <br>Nostrum doloribus minus voluptates sit accusamus non magni dolor nemo ipsam, pariatur amet assumenda nulla tempore saepe, incidunt, nobis eligendi.</p>
+            <a href="" class="hero-btm">Visit us to know more</a>
+    </div>
+    </section>
+    
+
+<!--JavaScript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
