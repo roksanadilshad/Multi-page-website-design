@@ -45,7 +45,7 @@ The purpose of this project is to practice:
 
 ## 🛠️ Installation Steps
 
-Follow the steps below to run this project locally:
+Clone the link below to run this project locally: https://github.com/roksanadilshad/Multi-page-website-design.git
 
 ### 1. Clone the repository
 ```bash
